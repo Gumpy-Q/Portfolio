@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>TN20-Alternateur</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="styletest.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Noticia+Text' rel='stylesheet' type='text/css'>
+		<style>
+	body
+		{ !important; background-color:#e5e5e5		}
+		
+		
+	</style>
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+
+
+	<!-- HEADER -->
+	<div id="header">
+		<!-- bannière -->
+			<div class="bannière">
+			<center><img src="photo/bannière.jpg" alt="bannière" height="100px" /></center></div>
+			
+	</div>		
+	
+	<!-- Menu -->
+	<div id="menu">
+		<div id="TAB" style="position:fixed; left:10px; top:120px;"> 
+		<a class="dy" style="cursor:pointer;" onMouseover="cursor:pointer';" onClick="changeNavigation ('tab1')"><p>Accueil</p></a>
+		<a class="dy" style="cursor:pointer;" onMouseover="cursor:pointer';" onClick="changeNavigation ('tab2')"><p>Nomenclature</p></a>
+		<a class="dy" style="cursor:pointer;" onMouseover="cursor:pointer';" onClick="changeNavigation ('tab3')"><p>Choix préliminaires</p></a>
+		<a class="dy" style="cursor:pointer;" onMouseover="cursor:pointer';" onClick="changeNavigation ('tab4')"><p>Assemblage</p></a>
+		<a class="dz" style="cursor:pointer;" onMouseover="cursor:pointer';" onClick="changeNavigation ('tab5')"><p>Carter supérieur</p></a>
+		<a class="dz" style="cursor:pointer;" onMouseover="cursor:pointer';" onClick="changeNavigation ('tab6')"><p>Carter Inférieur</p></a>
+		<a class="dz" style="cursor:pointer;" onMouseover="cursor:pointer';" onClick="changeNavigation ('tab7')"><p>Mâchoires</p></a>
+		<a class="dz" style="cursor:pointer;" onMouseover="cursor:pointer';" onClick="changeNavigation ('tab8')"><p>Taquet</p></a>
+		<a class="dz" style="cursor:pointer;" onMouseover="cursor:pointer';" onClick="changeNavigation ('tab9')"><p>Autres pièces</p></a>
+		<a class="dy" style="cursor:pointer;" onMouseover="cursor:pointer';" onClick="changeNavigation ('tab10')"><p>Conclusion</p></a>
+	</div>
+	</div>
+		
+	<div id="box">
+		<h1><center>Accueil</center></h1>
+		<h2>Avant-propos</h2>
+		<p>L'afichage de ce site a été optimisé pour des écrans supérieurs à 15 pouces.</br> Nous vous remercions d'utiliser Internet Explorer ou Mozilla Firefox pour disposer des vues 3D interactives grâce à 3dxml.</br> Le plug-in 3dxml ainsi que notre modélisation sont téléchargeables via les lien à gauche en pied de page.</br>
+		N'hésitez pas à cliquer deux fois sur le bouton si un onglet ne s'affiche pas. Le plug-in 3dxml peut-être en train de charger une pièce ce qui ralentit le changement de page.
+		<h2>Présentation de la pièce</h2>
+		<center><img src="photo/vuegénérale.jpg" class="grand" width="55%"/></center>
+		La pièce choisie pour notre modélisation est un alternateur pour voiture citadine. Il s'agit du modèle Valeo CL15 trouvable sous le capot des Peugeot 106 et 206 et diverses Citroën.</br></br>On rappelle que l'objectif de l'alternateur est de permettre de recharger la batterie en utilisant la rotation du moteur. Pour cela, la poulie est entraînée en rotation par la courroie moteur permettant de faire tourner le rotor.</br>
+		Le rotor est composé d'une bobine qui une fois sous tension génère un champ électromagnétique. La mise en rotation de ce champs génére alors des courants induits au sein de la bobine du stator selon le principe de l'induction de Neumann. </br>
+		Il s'agit donc d'une pièce d'importance sur une voiture sans laquelle, nous en serions encore à démarrer à la manivelle.
+		<h2>Schéma électrique de l'alternateur</h2>
+		Le schéma retenu n'est pas spécifique à notre alternateur.
+		<center><img src="photo/schéma_electrique.png" class="grand" width="40%"/></center>
+		</p>
+	<div class="bas"><p>f</p></div>
+	</div>
+		
+	<script>function changeNavigation(id) {document.getElementById('box').innerHTML=document.getElementById(id).innerHTML}</script>
+	<script type="text/javascript">
+		var isChromium = window.chrome,
+		vendorName = window.navigator.vendor;
+		if(isChromium !== null && isChromium !== undefined && vendorName === "Google Inc.") {
+		alert('Le plug-in 3DXML n\'est pas disponible sur Google Chrome.');}
+
+</script>	
+		
+		<!-- CONTENT -->
+	<div id="content">
+	<div class="tab" id="tab1" style="display:none">
+		<h1><center>Accueil</center></h1>
+		<h2>Avant-propos</h2>
+		<p>L'afichage de ce site a été optimisé pour des écrans supérieurs à 15 pouces.</br> Nous vous remercions d'utiliser Internet Explorer ou Mozilla Firefox pour disposer des vues 3D interactives grâce à 3dxml.</br> Le plug-in 3dxml ainsi que notre modélisation sont téléchargeables via les liens à gauche en pied de page.</br>
+		N'hésitez pas à cliquer deux fois sur le bouton si un onglet ne s'affiche pas. Le plug-in 3dxml peut-être en train de charger une pièce ce qui ralentit le changement de page.
+		<h2>Présentation de la pièce</h2>
+		<center><img src="photo/vuegénérale.jpg" class="grand" width="60%"/></center>
+		La pièce choisie pour notre modélisation est un alternateur pour voiture citadine. Il s'agit du modèle Valeo CL15 trouvable sous le capot des Peugeot 106 et 206 et diverses Citroën.</br></br>On rappelle que l'objectif de l'alternateur est de permettre de recharger la batterie en utilisant la rotation du moteur. Pour cela, la poulie est entraînée en rotation par la courroie moteur permettant de faire tourner le rotor.</br>
+		Le rotor est composé d'une bobine qui une fois sous tension génère un champ électromagnétique. La mise en rotation de ce champs génére alors des courants induits au sein de la bobine du stator selon le principe de l'induction de Neumann. </br>
+		Il s'agit donc d'une pièce d'importance sur une voiture sans laquelle, nous en serions encore à démarrer à la manivelle.
+		<h2>Schéma électrique de l'alternateur</h2>
+		Le schéma retenu n'est pas spécifique à notre alternateur.
+		<center><img src="photo/schéma_electrique.png" class="grand" width="40%"/></center>
+		</p>
+	<div class="bas"><p>f</p></div>
+	</div>
+		
+	<div class="tab" id="tab2" style="display:none">
+		<center><h1>Nomenclature</h1></center>
+		<center><table>
+			<tr>
+				<th>Pièce</th>
+				<th>Matériau</th>
+				<th>Photo</th>
+				<th>Nombre</th>
+			</tr>
+			<tr>
+				<td>Carter inférieur</td>
+				<td>Acier</td>
+				<td><img src="photo/carter_inférieur.jpg" class="intab"/></td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Carter supérieur</td>
+				<td>Acier</td>
+				<td><img src="photo/carter_supérieur.jpg " class="intab"/></td>  
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Rotor</td>
+				<td>Acier + cuivre</td>
+				<td><img src="photo/rotor.jpg" class="intab"/></td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Stator</td>
+				<td>Acier + Cuivre</td>
+				<td><img src="photo/bobine.jpg" class="intab"/></td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Mâchoire</td>
+				<td>Acier</td>
+				<td><img src="photo/machoire.jpg" class="intab"/></td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>Poulie</td>
+				<td>Acier</td>
+				<td><img src="photo/poulie.jpg" class="intab"/></td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Ecrou étoilé</td>
+				<td>Acier</td>
+				<td><img src="photo/ecrou_étoilé.jpg" class="intab"/></td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Vis de poulie</td>
+				<td>Acier</td>
+				<td><img src="photo/vis_poulie.jpg" class="intab"/></td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Vis</td>
+				<td>Acier</td>
+				<td><img src="photo/vis_carter.jpg" class="intab"/></td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>Taquet</td>
+				<td>Plastique</td>
+				<td><img src="photo/taquet.jpg" class="intab"/></td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Roulement à bille</td>
+				<td>Acier</td>
+				<td><img src="photo/roulement.jpg" class="intab"/></td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>Entretoise</td>
+				<td>Polymère</td>
+				<td>Détruite lors du démontage</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>Chapeau</td>
+				<td>Plastique</td>
+				<td><img src="photo/chapeau.jpg" class="intab"/></td>
+				<td>1</td>
+			</tr>
+		</table></center>
+	<div class="bas"><p>f</p></div>
+	</div>
+		
+	<div class="tab" id="tab3" style="display:none">
+		<center><h1>Choix préliminaires</h1></center>
+		<h2>Pièces réalisées</h2>
+		<p>Notre choix a été de modéliser en priorité les pièces les plus emblématiques et permettant, au premier coup d'oeil, de reconnaître l'alternateur.</br></br>
+		Les pièces choisies sont donc:</br>
+		- Les carters</br>
+		- Le stator</br>
+		- Le rotor, comprenant les mâchoires</br>
+		- La poulie</br>
+		- Les divers pièces mécaniques avec les vis, les roulements, les entretoises et le chapeau.</br></br>
+		N'ont pas été réalisées, les pièces permettant de transmettre le courant au rotor et recevoir le courant induit du stator. Elles sont présentes sur la photo ci-dessous.
+		<center><img src="photo/pièces_nop.jpg" class="grand" width="45%"/></center></br>
+		<h2>Problèmes de démontage</h2>
+		Prendre une pièce usagée, c'est aussi prendre le risque de faire face à quelques menus soucis de démontabilité... C'est d'autant plus vrai pour une pièce automobile qui nécessite souvent des outils spécifiques.</br>
+		Si jusqu'au moment de démonter le rotor, tout se passait plutôt bien, il est venu à l'évidence que pour désolidariser la poulie, le carter inférieur et le rotor, il faudrait un outil peu commun. </br>Une rapide observation de ce qu'il y avait entre les trois pièces a montré qu'il ne serait pas intéressant de mettre en attente certaines modélisations pour pouvoir obtenir l'outil dans un délai d'un mois. Les pièces partiellement inconnues ne représentaient visiblement pas un grand intérêt en terme de modélisation.</br></br>
+		Toujours dans nos essais de démontage du rotor, nous avons détruit une entretoise faite d'un matériau friable.</br>
+		Elle sera tout de même représentée, les différentes surfaces utiles étant suffisantes pour l'imaginer.</br>
+		<h2>Spécificités ignorées des pièces</h2>
+		De par son fonctionnement, l'alternateur contient des bobines.</br> Outre l'absence d'intérêt de les modéliser sur une CAO en TN20 et notre ignorance sur les paramètres (enroulement, diamètre du fil...), le temps que cela demanderait nous a conduit à représenter des pièces pleines à la place.
+		</p> 
+	<div class="bas"><p>f</p></div>
+	</div>  
+		
+	<div class="tab" id="tab4" style="display:none">
+		<center><h1>Assemblage</h1></center>
+		<h2>Visualisation sur 3DXML</h2>
+		<center><object style="margin-top: 10px; margin-bottom: 10px;" type='application/x-3dxmlplugin' class='3DXMLPluginId' height="600px" width="60%">
+		<param name='DocumentFile' value='3DXML/assemblage.3dxml'></object></center>
+		<p>Pour rappel, l'ensemble des pièces est disponible via le lien "Obtenir notre modélisation" sur le lien en bas à gauche.</br>
+		<h2>Choix pour l'assemblage</h2>
+		Si notre objectif de départ était de passer par une modélisation squelette, notre manque de temps et de connaissance sur le sujet nous a orienté vers une solution plus classique.</br>
+		De ce fait, le carter supérieur est utilisé comme base fixe pour l'assemblage des pièces. La nature de l'alternateur fait que la majorité est en contact plan et positionnée sur l'axe du rotor. Dans un souci de réalisme, la rotation de la poulie entraîne celle du rotor.</br></br>
+		La partie entre la mâchoire et le carter étant non accessible, nous sommes partis de l'hypothèse que l'on retrouvait une configuration entretoise + roulement à bille. Les surfaces utiles imaginées pour ce montage ont été modélisées dans le carter dit inférieur.</br>
+		Le dimensionnement de ces surfaces a été imaginé de manière à reproduire le faible espacement observé entre les ailettes et le carter, et en respectant quelques considérations mécaniques.</p> 
+	<div class="bas"><p>f</p></div>
+	</div>
+		
+	<div class="tab" id="tab5" style="display:none">
+		<center><h1>Carter supérieur</h1></center>
+		<h2>Visualisation sur 3DXML</h2>
+		<center><object style="margin-top: 10px; margin-bottom: 10px;" type='application/x-3dxmlplugin' class='3DXMLPluginId' height="600px" width="60%">
+		<param name='DocumentFile' value='3DXML/cartersup.3dxml'></object></center>
+		<img class="forme" src="photo/forme_1.jpg" height="150px" />
+		<h2>Quelques choix stratégiques</h2>
+		<p>- Les angles pour les aérations ont été relevés via des photos sur le logiciel Adobe Illustrator</br>
+		- Certains détails de formes au niveau de la gorge n'apparaissent pas étant donné notre temps et l'aspect "finition" qu'elles représentent.
+		</br></br>
+		<h2>Difficultés de modélisations</h2>
+		Sur cette pièce, les difficultés sont avant tout centrées sur les aérations. L'ensemble des autres formes ayant des fonctions mécaniques simples, nous arrivons assez vite à les ajouter par opérations booléennes en récupérant les angles sur nos photos.
+		<center><img src="photo/aération_2.jpg" width="50%" class="grand" /></center>
+		Ainsi on peut se retrouver avec cette poche par exemple qui est avant tout un fastidieux travail de report d'angle  et de contraintes de parallélisme.
+		<center><img src="photo/aération_1.jpg" Width="50%" class="grand" /></center>
+		C'était la principale difficulté sur ce carter. Il fallait positionner notre esquisse tangentiellement à la surface et faire une poche suivant un angle difficile à retrouver même sur Illustrator. Il a donc fallu plusieurs essais sur un côté pour que l'on puisse avoir le bon nombre d'aération avec des distances satisfaisantes par rapport à des repères sur le carter.</br>
+		Il était obligatoire de passer par plusieurs répétions pour représenter toutes les aérations verticales, la poche coupant parfois à travers la matière et l'angle devant être reporté à 90° pour l'autre côté.
+		<center><img src="photo/formecarrée.gif" width="60%" class="grand" />
+		</center>
+		Le problème de cette partie se situe au niveau de la gorge de la vis. Si le premier pavé est mal positionné, la gorge ne ressemble plus à ce que l'on observe sur le carter. En effet, pour placer ce trou, on préfère se référer à cet élément. Nous avons donc dû changer plusieurs fois les dimensions jusqu'à être satisfait de la similarité.
+		</p>
+	<div class="bas"><p>f</p></div>
+	</div>
+		
+	<div class="tab" id="tab6" style="display:none">
+		<center><h1>Carter inférieur</h1></center>
+		<h2>Visualisation sur 3DXML</h2>
+		<center><object style="margin-top: 10px; margin-bottom: 10px;" type='application/x-3dxmlplugin' class='3DXMLPluginId' height="600px" width="60%">
+		<param name='DocumentFile' value='3DXML/carterinf.3dxml'></object></center>
+		<img class="forme" src="photo/creux.jpg" height="150px" />
+		<h2>Quelques choix stratégiques</h2>
+		<p>- Nous avons choisi de ne pas représenter le creux situé au niveau des "oreilles" du carter. Il est possible de les réaliser mais avec plusieurs opérations booléennes sans connaître l'ensemble des mesures. Cela aurait requis beaucoup de tâtonnements afin de pouvoir aboutir à un résultat correct.</br>
+		- Comme pour le carter précédant, certaines opérations esthétiques au niveau des gorges n'ont pas été représentées. En effet, mécaniquement elles semblaient être inutiles pour ce modèle d'alternateur (pas de joint au démontage ou quoi que ce soit qui aille à cette endroit) et le peu d'intérêt de les représenter vu qu'elles sont cachées.
+		</br></br>
+		<h2>Difficultés de modélisations</h2>
+		Le plus dur dans la conception de cette pièce à été d'harmoniser cette dernière avec le carter inférieur. En effet, les différents trous de vis et de maintien en position se devaient d'être parfaitement coaxiaux. En outre pour des raisons esthétiques, nous devions rendre les angles des ailettes de refroidissement sensiblement égaux (ce que confirme l'analyse des photos). Certains relevés ont donc été réajustés pour y arriver.
+		<center><img src="photo/alignement.jpg" width="50%" class="grand" /></center>
+		A l'image de la pièce précédente, les ailettes ont été compliquées à modéliser. Cependant il ne restait plus qu'à trouver le bon positionnement des esquisses d'origine grâce au travail précédent.
+		<center><img src="photo/aération_3.jpg" width="50%" class="grand" /></center>
+	<div class="bas"><p>f</p></div>
+	</div>
+		
+	<div class="tab" id="tab7" style="display:none">
+		<center><h1>Mâchoires</h1></center>
+		<h2>Visualisation sur 3DXML</h2>
+		<div>
+		<object style="margin-top: 10px; margin-bottom: 10px" type='application/x-3dxmlplugin' class='machoire1' height="450px" width="40%">
+		<param name='DocumentFile' value='3DXML/crocsup.3dxml'></object>
+		<object style="margin-top: 10px; margin-bottom: 10px;" type='application/x-3dxmlplugin' class='machoire2' height="450px" width="40%">
+		<param name='DocumentFile' value='3DXML/crocinf.3dxml'></object>
+		</div>
+		<img class="forme" src="photo/nervure.jpg" height="150px" />	
+		<h2>Quelques choix stratégiques</h2>
+		<p>- La courbure des ailettes (différentes sur les deux mâchoires) a été copiée depuis une photo sous Photoshop au format SVG. Elle a ainsi pu être reconstruite sous Catia en se basant sur ce profil.</br>
+		- Les nervures étant peu marquées, avoir un résultat similaire sous Catia semblait peu imaginable. Elles ne sont pas modélisées.</br>
+		- Les ailettes du côtés non démontable ont été réparties uniformément du fait de notre impossibilité à les observer.</br></br></br>
+		<h2>Difficultés de modélisations</h2>
+		L'exemple est pris sur la mâchoire du côté non démonté.
+		<center><img src="photo/ailette.jpg" width="50%" class="grand" /></center>
+		L'ailette est formée à partir d'un solide multi-section dont les deux splines sont identiques mais décalées verticalement. On applique ensuite à ce solide une surface épaisse.
+		<center><img src="photo/support_aillette.jpg" width="50%" class="grand" /></center>
+		Le support des ailettes est imparfait car recopier la spline des ailettes à différentes inclinaisons sur l'esquisse s'est avéré, nous semble-t-il, impossible. La partie suivant le contour de l'ailette est donc une courbe dont les trois points sont contraints à être coïncidents avec l'ailette.
+		<center><img src="photo/forme_2.jpg" width="50%" class="grand" /></center>
+		Pour réussir à donner la forme courbée à la tête des dents de la mâchoire, il a fallu plusieurs essais. Des réflexions communes ont mené à la soustraction booléenne de la forme visible sur la photo à un angle de 90° par rapport à la surface travaillée. Les dents faisant partie d'un sous-corps, l'opération a été appliquée avant sa réunion avec le corps principal pour éviter que les ailettes reçoivent aussi cette soustraction.</p>
+	<div class="bas"><p>f</p></div>
+	</div>
+		
+	<div class="tab" id="tab8" style="display:none">
+		<center><h1>Taquet</h1></center>
+		<h2>Visualisation sur 3DXML</h2>
+		<center><object style="margin-top: 10px; margin-bottom: 10px;" type='application/x-3dxmlplugin' class='3DXMLPluginId' height="600px" width="60%">
+		<param name='DocumentFile' value='3DXML/taquet.3dxml'></object></center>
+		<h2>Quelques choix stratégiques</h2>
+		<p>Cette pièce ne payait pas de mine à première vue mais il s'est avéré qu'elle cachait bien son jeu.
+		Nous avons négligé les faibles rayons de courbure situés sur les flancs du taquet.
+		<h2>Difficultés de modélisations</h2>
+		Principalement des questions d'ordre géométrique sur "comment partir afin d'obtenir cette chose" mais avec un bon point de départ nous sommes arrivés à quelque chose de très ressemblant.
+		<center><img src="photo/taquet.gif" width="60%" class="grand" /></center>
+		</p>
+	<div class="bas"><p>f</p></div>
+	</div>
+	
+	<div class="tab" id="tab9" style="display:none">
+		<center><h1>Autres pièces</h1></center>
+		<p>Le reste des pièces est bien plus simple. Elles n'ont pas demandé de techniques particulières afin de les modéliser.</br> 
+		Vous pouvez les observer ici mais nous ne nous attarderons pas sur elles.
+		<h2>Visualisation sur 3DXML</h2>
+		<object style="margin-top: 10px; margin-bottom: 10px" type='application/x-3dxmlplugin' class='machoire1' height="450px" width="40%">
+		<param name='DocumentFile' value='3DXML/bobine.3dxml'></object>
+		<object style="margin-top: 10px; margin-bottom: 10px;" type='application/x-3dxmlplugin' class='machoire2' height="450px" width="40%">
+		<param name='DocumentFile' value='3DXML/rotor.3dxml'></object>
+		<object style="margin-top: 10px; margin-bottom: 10px" type='application/x-3dxmlplugin' class='machoire1' height="450px" width="40%">
+		<param name='DocumentFile' value='3DXML/poulie.3dxml'></object>
+		<object style="margin-top: 10px; margin-bottom: 10px;" type='application/x-3dxmlplugin' class='machoire2' height="450px" width="40%">
+		<param name='DocumentFile' value='3DXML/chapeau.3dxml'></object>
+		<object style="margin-top: 10px; margin-bottom: 10px" type='application/x-3dxmlplugin' class='machoire1' height="450px" width="40%">
+		<param name='DocumentFile' value='3DXML/ecrouetoile.3dxml'></object>
+		<object style="margin-top: 10px; margin-bottom: 10px;" type='application/x-3dxmlplugin' class='machoire2' height="450px" width="40%">
+		<param name='DocumentFile' value='3DXML/vis.3dxml'></object>
+		<object style="margin-top: 10px; margin-bottom: 10px" type='application/x-3dxmlplugin' class='machoire1' height="450px" width="40%">
+		<param name='DocumentFile' value='3DXML/vis_carter.3dxml'></object>
+		<object style="margin-top: 10px; margin-bottom: 10px;" type='application/x-3dxmlplugin' class='machoire2' height="450px" width="40%">
+		<param name='DocumentFile' value='3DXML/roulementabille.3dxml'></object>
+		<center><object style="margin-top: 10px; margin-bottom: 10px" type='application/x-3dxmlplugin' height="450px" width="40%">
+		<param name='DocumentFile' value='3DXML/entretoise.3dxml'></object>
+		</center>
+	<div class="bas"><p>f</p></div>
+	</div>
+	
+	
+	<div class="tab" id="tab10" style="display:none">
+		<center><h1>Remerciements</h1></center>
+		<p>Nous remercions le garage ADJOCI pièce auto (32 rue de Senlis, Compiègne), pour nous avoir fourni l'alternateur ainsi qu'une pompe de climatisation pour la réalisation de ce projet.</br></br>Nous présentons tous nos remerciements aussi à notre chargé de TD et professeur, Alain Rassineux pour son aide lors de nos difficultés.
+		<center><h1>Conclusion</h1></center>
+		L'UV TN20 nous aura permis en l'espace d'un semestre à développer nos savoir-faire qu'ils soient de l'ordre de la modélisation géométrique avec Catia V5 ou de l'ordre du développement de site web.</br> 
+		Elle nous aura par ailleurs servi d'initiation au travail de groupe dans le cadre de projet à moyen terme, ce qui a été très formateur pour nous. </br>
+		Grâce à l'UV, nous maîtrisons désormais les grandes lignes de Catia V5 et pouvons aborder des cours de conception mécanique de manière plus sereine.</br></br>
+		Tout au long de la modélisation de notre alternateur, la question qui revenait le plus est "comment faire plus efficace ?".</br>
+		Face à la multiplication des opérations, nous avons vite compris que relever toujours plus de dimensions ne suffisaient pas pour être rapide et exact. Si notre pièce se prêtait peu à la réalisation du maximum de détails en un minimum d'action, cela ne nous empêchait pas d'essayer de toujours préparer notre travail aux opérations qui suivraient.
+		<center><img src="photo/rendu_alternateur.jpg" width="70%" class="grand"></center>
+		C'est au moment de faire ce rendu, que l'on se rend compte du temps qui est passé pour en arriver là et que l'on préfère ignorer le nombre de clic nécessaire.</br>
+		Aujourd'hui, c'est encore l'étape qui prend le plus de temps pour donner un résultat, mais on se rappelle que toute cette technologie mène vers toujours plus d'instantanéité à mesure que les performances de nos machines augmentent.</br></br>
+		Dans dix ans, certains étudiants feront-ils leurs pièces avec un casque de réalité virtuelle sur la tête ? Directement sur un téléphone portable ? La question sera surtout de savoir de combien de cachet d'aspirine ils auront besoin pour tenir 4h de TD ainsi.</br></br>
+		Quentin et Lucas, Printemps 2015
+	<div>
+		<img src="photo/quentin.jpg" class="portrait2">
+		<img src="photo/lucas.jpg" class="portrait1">
+	</div>
+	<div class="bas">
+		<p>f</p></div>
+	</div>
+
+		
+		</div>
+		
+	<!-- FOOTER -->		
+	<div id="footer">
+		 <p>
+		 <a href="http://www.3ds.com/products-services/3d-xml/1" class="type1" target="_blank"> Obtenir 3dxml</a></br>
+		 <a href='assemblage/alternateur.zip' class="type1" target="_blank">Obtenir notre modélisation</a>
+		 </p>
+	</div>
+	
+
+</body>
+	
+</html>
