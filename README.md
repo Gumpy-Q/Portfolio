@@ -1,2 +1,2 @@
 # Portfolio
-My portfolion in French for employment and enjoyment
+My portfolio in French for employment and enjoyment
