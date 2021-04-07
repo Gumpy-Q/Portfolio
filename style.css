@@ -32,24 +32,22 @@ photo{
             height: 15em;
             border-radius: 10em;
             border:solid;
-            border-width:thick;
             border-color: #ffffff;
             margin: auto;}
 
 header{
-    background-color: var(--first-color);}
+    background-color: var(--back-color);}
 
 content, footer, nav, index{
-    width:70%;
+    width:75%;
     min-width: 45em;
-    max-width: 70em;
     margin:auto;}
 
 nav, navindex{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    margin:auto;}
+    margin: 1em auto;}
 
 navindex{
     width:100%;
@@ -77,17 +75,28 @@ navindex{
     transition: all 0.3s ease;}
 
 content, contentindex{
-    background-color:white;
     flex:auto;
     display: flex;
     flex-direction: column;
+    padding-top: 0.5em;
     padding-bottom: 0.5em;
-    margin: auto auto 3em;
-    border-radius: 0 0 1em 1em;}
+    background-color: white;}
+
+content{
+    margin: 1em auto 2em;
+    border-radius: 1em;
+    text-align: justify;
+}
+
+contentindex{
+    margin: 0em;
+    border-radius: 0 0 1em 1em;
+    text-align: center;
+}
+
 
 article{
-    margin:0.75em 4em;
-    text-align: justify;}
+    margin:0.75em 4em;}
 
 
 article a{
@@ -104,8 +113,7 @@ p, li{
 p{
     line-height: 1.4;
     margin: 0.5em 0em 1em;
-    text-indent: 0em;
-    text-align:justify;}
+    text-indent: 0em;}
 
 .sumup{font-style:oblique;}
 
@@ -122,8 +130,7 @@ h2{
     background-color:var(--first-color);
     text-align: center;
     padding: 0.5em 2em;
-    margin: 0.5em 2em;
-    border-radius: 0.5em;}
+    }
 
 .proj{
     text-decoration: none;
