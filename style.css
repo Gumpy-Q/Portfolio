@@ -28,12 +28,12 @@ photo{
     padding: 0 0 1em 0;}
 
 .photo-index{
-            width: 15em;
-            height: 15em;
-            border-radius: 10em;
-            border:solid;
-            border-color: #ffffff;
-            margin: auto;}
+    width: 15em;
+    height: 15em;
+    border-radius: 10em;
+    border:solid;
+    border-color: #ffffff;
+    margin: auto;}
 
 header{
     background-color: var(--back-color);}
